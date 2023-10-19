@@ -24,7 +24,7 @@ public class App {
                     + position);
 
             // Si vous êtes déjà à la case 20 ou au-delà, vous avez gagné.
-            if (position >= 20) {
+            if (position == 20) {
                 System.out.println("Félicitations, vous avez gagné !");
                 break;
             }
